@@ -16,12 +16,35 @@
 
     <section class= "form_wrap">
 
-      <section class= "contact_info">
+      <section class= "cantact_info">
+        <section class = "info_title">
+          <span class="fa fa-user-circle"></span>
+          <h2>Informacion <br> de contacto</h2>
+        </section>
 
+        <section class="info_items">
+          <p> <span class="fa fa-envelope"></span>razzziel001@gmail.com </p>
+            <p> <span class="fa fa-mobile"></span>57+3134214916 </p>
+        </section>
       </section>
 
-      <form  action="" method="pform_contact">
+      <form  action="" method="form_contact">
+        <h2>Envia un mensaje</h2>
+        <div class="user_info">
+          <label for="names">Nombres *</label>
+          <input type="text" id="names">
 
+          l<label for="phone">Telefono / celular *</label>
+          <input type="text" id="phone">
+
+          l<label for="phone">Correo electronico *</label>
+          <input type="text" id="email">
+
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje"></textarea>
+
+          <input type="button" value="Enviar Mensaje" id="btnSend" >
+        </div>
       </form>
 
     </section>
